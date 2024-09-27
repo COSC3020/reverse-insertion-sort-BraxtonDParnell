@@ -36,3 +36,5 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+The average-case time complexity of insertion sort should still be n^2. If, on average, we have to iterate through about half of n each time, our time complexity will be 1/2n. And since we have to iterate through two instances of n, it would be 1/2n^2. Since we ignore constants for time complexity, the average-case time complexity would be n^2.
